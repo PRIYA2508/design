@@ -1,14 +1,11 @@
-
 import './App.css'
+import {GetInitialData} from "./Tailwind/class-1"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-      
-      
+      <GetInitialData/>
       </div>
       
     </>
